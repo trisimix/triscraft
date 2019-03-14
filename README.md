@@ -7,6 +7,6 @@ installaunch is intended for my personal deployment to aws, it assumes there is 
 To get this onto your server you may need to send the tar over ssh, or figure out how to do a cookie workaround with wget. Heres an example command to send files to aws using scp, no middle man:
 
 
-scp -i ~/.ssh/master.pem /home/trisimix/Downloads/jre-8u201-linux-x64.tar.gz ubuntu@your-ip.us-east-2.compute.amazonaws.com:~/
+`scp -i ~/.ssh/master.pem /home/trisimix/Downloads/jre-8u201-linux-x64.tar.gz ubuntu@your-ip.us-east-2.compute.amazonaws.com:~/`
 
 
