@@ -1,5 +1,5 @@
 # triscraft
-A minecraft server with some educational thingys, follows 1.7.10 packs upstream and compatability. 
+A minecraft server with some educational thingys, follows [1.7.10 packs](https://www.technicpack.net/modpack/the-1710-pack.453902) upstream and compatability. 
 
 
 installaunch is intended for my personal deployment to aws, it assumes there is a oracle jre 8 directory in the directory underneath the server
