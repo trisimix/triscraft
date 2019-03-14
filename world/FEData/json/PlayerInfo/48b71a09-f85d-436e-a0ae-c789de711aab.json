@@ -1,0 +1,29 @@
+{
+  "ident": "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)",
+  "lastTeleportOrigin": {
+    "dim": 0,
+    "pitch": 53.100235,
+    "yaw": -132.75043,
+    "xd": 2023.2359065152148,
+    "yd": 100.60185630462534,
+    "zd": 798.7520890167697
+  },
+  "lastDeathLocation": {
+    "dim": 0,
+    "pitch": 53.100235,
+    "yaw": -132.75043,
+    "xd": 2023.2359065152148,
+    "yd": 100.60185630462534,
+    "zd": 798.7520890167697
+  },
+  "lastTeleportTime": 0,
+  "selDim": 0,
+  "inventoryGroups": {},
+  "modInventoryGroups": {},
+  "activeInventoryGroup": "default",
+  "timePlayed": 5591735,
+  "firstLogin": "Mar 14, 2019 4:39:06 AM",
+  "lastLogin": "Mar 14, 2019 4:39:06 AM",
+  "lastLogout": "Mar 14, 2019 6:12:18 AM",
+  "namedTimeout": {}
+}

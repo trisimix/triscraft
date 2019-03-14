@@ -1,0 +1,21 @@
+{
+  "ident": "(abaf3f53-5360-473c-85d7-b8ccca37fc85|demoman1000)",
+  "lastTeleportOrigin": {
+    "dim": 0,
+    "pitch": 15.149646,
+    "yaw": -302.9993,
+    "xd": -235.99372553474868,
+    "yd": 68.5,
+    "zd": -268.9276537543598
+  },
+  "lastTeleportTime": 1552543266337,
+  "selDim": 0,
+  "inventoryGroups": {},
+  "modInventoryGroups": {},
+  "activeInventoryGroup": "default",
+  "timePlayed": 5747684,
+  "firstLogin": "Mar 14, 2019 4:36:30 AM",
+  "lastLogin": "Mar 14, 2019 4:36:30 AM",
+  "lastLogout": "Mar 14, 2019 6:12:18 AM",
+  "namedTimeout": {}
+}
