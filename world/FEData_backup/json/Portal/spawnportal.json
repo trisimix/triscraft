@@ -1,0 +1,24 @@
+{
+  "portalArea": {
+    "worldName": "surface",
+    "dim": 0,
+    "high": {
+      "x": -238,
+      "y": 69,
+      "z": -261
+    },
+    "low": {
+      "x": -239,
+      "y": 67,
+      "z": -261
+    }
+  },
+  "target": {
+    "worldName": "surface",
+    "dim": 0,
+    "x": -172,
+    "y": 65,
+    "z": 220
+  },
+  "frame": true
+}

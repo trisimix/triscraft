@@ -2,28 +2,28 @@
   "ident": "(9452abd6-6f34-4d53-a73a-54f549890a7c|lonesharku)",
   "lastTeleportOrigin": {
     "dim": 0,
-    "pitch": 16.649935,
-    "yaw": -197.7,
-    "xd": -317.76945026032405,
-    "yd": 61.58347761604757,
-    "zd": -198.49091677667576
+    "pitch": 5.0996876,
+    "yaw": 150.45645,
+    "xd": -111.21012750953037,
+    "yd": 61.0,
+    "zd": 335.6213504697693
   },
   "lastDeathLocation": {
     "dim": 0,
-    "pitch": 16.649935,
-    "yaw": -197.7,
-    "xd": -317.76945026032405,
-    "yd": 61.58347761604757,
-    "zd": -198.49091677667576
+    "pitch": 5.0996876,
+    "yaw": 150.45645,
+    "xd": -111.21012750953037,
+    "yd": 61.0,
+    "zd": 335.6213504697693
   },
-  "lastTeleportTime": 0,
+  "lastTeleportTime": 1552622658826,
   "selDim": 0,
   "inventoryGroups": {},
   "modInventoryGroups": {},
   "activeInventoryGroup": "default",
-  "timePlayed": 2907077,
+  "timePlayed": 22345317,
   "firstLogin": "Mar 14, 2019 9:50:52 PM",
-  "lastLogin": "Mar 14, 2019 9:50:52 PM",
-  "lastLogout": "Mar 14, 2019 10:39:19 PM",
+  "lastLogin": "Mar 15, 2019 3:40:58 AM",
+  "lastLogout": "Mar 15, 2019 5:08:49 AM",
   "namedTimeout": {}
 }

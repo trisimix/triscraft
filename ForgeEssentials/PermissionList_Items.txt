@@ -1,5 +1,5 @@
 #// --------- PERMISSIONS LIST ITEMS ------- \\#
-#// --------------- 14.03 23:22 ------------ \\#
+#// --------------- 15.03 20:17 ------------ \\#
 #// ----------- Total amount: 36733 --------- \\#
 #// ---------------------------------------- \\#
 fe.protection.craft.*                                                                             # (default: true) Allow crafting of items. Not necessarily works with modded crafting tables

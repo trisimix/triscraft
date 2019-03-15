@@ -360,7 +360,9 @@
       "*": "true",
       "fe.internal.player.known": "true"
     },
-    "(abaf3f53-5360-473c-85d7-b8ccca37fc85|demoman1000)": {},
+    "(abaf3f53-5360-473c-85d7-b8ccca37fc85|demoman1000)": {
+      "fe.internal.player.known": "true"
+    },
     "(fefefefe-fefe-fefe-fefe-fefefefefeec|$FE_ECONOMY)": {
       "fe.economy.command.wallet.*": "true",
       "command.give": "true",

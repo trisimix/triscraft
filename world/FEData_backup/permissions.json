@@ -13,17 +13,6 @@
         {
           "name": "spawn",
           "area": {
-            "start": {
-              "x": -329,
-              "y": 49,
-              "z": -164
-            },
-            "end": {
-              "x": -130,
-              "y": 48,
-              "z": -352
-            },
-            "dim": 0,
             "high": {
               "x": -130,
               "y": 49,
@@ -41,6 +30,7 @@
           "playerPermissions": {},
           "groupPermissions": {
             "_ALL_": {
+              "some.test.permission": "true",
               "fe.protection.break.*": "false",
               "fe.protection.place.*": "false"
             }
@@ -49,17 +39,6 @@
         {
           "name": "islandspawn",
           "area": {
-            "start": {
-              "x": -330,
-              "y": 255,
-              "z": -169
-            },
-            "end": {
-              "x": -136,
-              "y": 0,
-              "z": -355
-            },
-            "dim": 0,
             "high": {
               "x": -136,
               "y": 255,
@@ -80,6 +59,10 @@
               "fe.protection.explode.*": "false",
               "fe.protection.break.*": "false",
               "fe.protection.place.*": "false"
+            },
+            "_OPS_": {
+              "all": "true",
+              "*": "true"
             }
           }
         }
@@ -355,14 +338,20 @@
       "groupPermissions": {}
     }
   },
-  "playerGroups": {},
+  "playerGroups": {
+    "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)": [
+      "mod"
+    ]
+  },
   "id": 1,
   "playerPermissions": {
     "(fefefefe-fefe-fefe-fefe-fefefefefefe|$SERVER)": {
       "*": "true",
       "fe.internal.player.known": "true"
     },
-    "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)": {},
+    "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)": {
+      "fe.internal.player.groups": "mod"
+    },
     "(fefefefe-fefe-fefe-fefe-fefefefefecc|$RCON)": {
       "*": "true",
       "fe.internal.player.known": "true"
@@ -377,8 +366,13 @@
       "command.give": "true",
       "fe.internal.player.known": "true"
     },
-    "(9452abd6-6f34-4d53-a73a-54f549890a7c|lonesharku)": {},
+    "(9452abd6-6f34-4d53-a73a-54f549890a7c|lonesharku)": {
+      "fe.internal.player.known": "true"
+    },
     "(2001c9aa-bbf8-306c-9b60-485e8cc6e215|$NPC)": {
+      "fe.internal.player.known": "true"
+    },
+    "(deadbeef-dead-beef-dead-deadbeefd00d|all)": {
       "fe.internal.player.known": "true"
     }
   },
@@ -440,6 +434,11 @@
       "fe.internal.group": "true"
     },
     "guest": {
+      "fe.internal.group.priority": "20",
+      "fe.internal.group": "true"
+    },
+    "mod": {
+      "_ALL_": "true",
       "fe.internal.group.priority": "20",
       "fe.internal.group": "true"
     }
