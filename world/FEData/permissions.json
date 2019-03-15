@@ -9,7 +9,64 @@
     },
     "0": {
       "dimensionID": 0,
-      "areaZones": [],
+      "areaZones": [
+        {
+          "name": "spawn",
+          "area": {
+            "high": {
+              "x": -130,
+              "y": 49,
+              "z": -164
+            },
+            "low": {
+              "x": -329,
+              "y": 48,
+              "z": -352
+            }
+          },
+          "shape": "BOX",
+          "priority": 0,
+          "id": 1,
+          "playerPermissions": {},
+          "groupPermissions": {
+            "_ALL_": {
+              "some.test.permission": "true",
+              "fe.protection.break.*": "false",
+              "fe.protection.place.*": "false"
+            }
+          }
+        },
+        {
+          "name": "islandspawn",
+          "area": {
+            "high": {
+              "x": -136,
+              "y": 255,
+              "z": -169
+            },
+            "low": {
+              "x": -330,
+              "y": 0,
+              "z": -355
+            }
+          },
+          "shape": "BOX",
+          "priority": 0,
+          "id": 2,
+          "playerPermissions": {},
+          "groupPermissions": {
+            "_ALL_": {
+              "fe.protection.explode.*": "false",
+              "fe.protection.break.*": "false",
+              "fe.protection.place.*": "false"
+            },
+            "_OPS_": {
+              "all": "true",
+              "*": "true"
+            }
+          }
+        }
+      ],
       "id": 14,
       "playerPermissions": {},
       "groupPermissions": {}
@@ -281,7 +338,11 @@
       "groupPermissions": {}
     }
   },
-  "playerGroups": {},
+  "playerGroups": {
+    "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)": [
+      "mod"
+    ]
+  },
   "id": 1,
   "playerPermissions": {
     "(fefefefe-fefe-fefe-fefe-fefefefefefe|$SERVER)": {
@@ -289,7 +350,7 @@
       "fe.internal.player.known": "true"
     },
     "(48b71a09-f85d-436e-a0ae-c789de711aab|Trisimix)": {
-      "fe.internal.player.known": "true"
+      "fe.internal.player.groups": "mod"
     },
     "(fefefefe-fefe-fefe-fefe-fefefefefecc|$RCON)": {
       "*": "true",
@@ -299,7 +360,21 @@
       "*": "true",
       "fe.internal.player.known": "true"
     },
-    "(abaf3f53-5360-473c-85d7-b8ccca37fc85|demoman1000)": {}
+    "(abaf3f53-5360-473c-85d7-b8ccca37fc85|demoman1000)": {},
+    "(fefefefe-fefe-fefe-fefe-fefefefefeec|$FE_ECONOMY)": {
+      "fe.economy.command.wallet.*": "true",
+      "command.give": "true",
+      "fe.internal.player.known": "true"
+    },
+    "(9452abd6-6f34-4d53-a73a-54f549890a7c|lonesharku)": {
+      "fe.internal.player.known": "true"
+    },
+    "(2001c9aa-bbf8-306c-9b60-485e8cc6e215|$NPC)": {
+      "fe.internal.player.known": "true"
+    },
+    "(deadbeef-dead-beef-dead-deadbeefd00d|all)": {
+      "fe.internal.player.known": "true"
+    }
   },
   "groupPermissions": {
     "_PLAYERS_": {
@@ -327,7 +402,8 @@
       "some.test.permission": "true",
       "fe.internal.group.name": "players",
       "fe.internal.group.priority": "0",
-      "fe.internal.group": "true"
+      "fe.internal.group": "true",
+      "fe.internal.spawn.location": "[-288.6532640372453,64.0,-199.4974984471364,dim\u003d0,pitch\u003d11.100022,yaw\u003d-148.80038]"
     },
     "_CREATIVE_": {
       "fe.internal.group": "true"
@@ -341,6 +417,7 @@
       "fe.faction.ally": "true",
       "fe.faction.friendlyfire": "true",
       "fe.faction.invite": "true",
+      "fe.internal.group.priority": "18",
       "fe.internal.group.parents": "faction_rank_op",
       "fe.faction.delete": "true"
     },
@@ -348,11 +425,21 @@
       "fe.faction.members.*": "true",
       "fe.faction.ally": "true",
       "fe.faction.friendlyfire": "true",
-      "fe.faction.invite": "true"
+      "fe.faction.invite": "true",
+      "fe.internal.group.priority": "16"
     },
     "_GUESTS_": {
-      "fe.internal.prefix": "[GUEST]",
+      "fe.internal.prefix": "\u0026r[\u00262GUEST\u0026r]",
       "fe.internal.group.priority": "10",
+      "fe.internal.group": "true"
+    },
+    "guest": {
+      "fe.internal.group.priority": "20",
+      "fe.internal.group": "true"
+    },
+    "mod": {
+      "_ALL_": "true",
+      "fe.internal.group.priority": "20",
       "fe.internal.group": "true"
     }
   }
